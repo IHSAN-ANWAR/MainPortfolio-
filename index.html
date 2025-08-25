@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+ 
+    <title>Personal-Portfolio</title>
+
+</head>
+<body>
+
+    <!-- Loading Bar -->
+     <div class="loading-bar"></div>
+
+
+     <!-- Main Navbar -->
+    <div class="container">
+        <nav>
+            <div class="logo">IHSAN</div>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about"> About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#skills"> Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            
+            </div>
+            <div class="burger" onclick="toggleNav()">
+                <div class="lines1"></div>
+                <div class="lines2"></div>
+                <div class="lines3"></div>
+            </div>
+        </nav>
+
+
+        <!-- Sections  -->
+         <section id="home" class="section">
+            <div class="content">
+                <h1>Hello, I'm <span 
+                    class="highlight">IHSAN ANWAR </span></h1>
+                    <!--  Typing Animations by JS -->
+                    <h2><span id="element"></span></h2>
+                    
+                    <!-- <p>Learning to build simple and beautiful websites with HTML, CSS, and JavaScript.</p> -->
+                    <p>Learning is not a destination, it's a journey!</p>
+                </div>
+            </section>
+
+
+            <section class="section" id="about">
+                <div class="content">
+                    <h2>About ME</h2>
+                     <div class="about-grid">
+                                             <div class="about-text">
+                         <p>I'm a passionate frontend developer with a strong foundation in web development technologies. My journey in programming began with a comprehensive understanding of frontend fundamentals, which I've built upon through hands-on projects and continuous learning.</p>
+                         
+                         <p>I've successfully completed multiple certifications including Introduction to Front End Development, Programming with JavaScript, and JavaScript Essentials, demonstrating my commitment to mastering modern web technologies. My project portfolio showcases practical applications of HTML, CSS, and JavaScript, from interactive forms with validation to dynamic user interfaces and responsive landing pages.</p>
+                         
+                         <p>Beyond technical skills, I hold an IELTS certification and typing certificate, reflecting my dedication to professional development and communication excellence. I'm currently focused on expanding my expertise in frontend frameworks and creating user-centric web experiences that combine functionality with elegant design.</p>
+                           
+                           <a href="cv.pdf" class="btn" download>Download CV</a>
+                
+                         </div>
+
+                   <div class="about-image">
+                    <div class="img-container">
+                    <!--  Using the profile image -->
+                     <img src="PROFILE.png" alt="Profile Image" class="profile-img" >
+                 </div>
+              </div>
+           </div>
+           </div>
+            </section>
+
+
+
+
+                 <section id="projects" class="section">
+            <div class="content">
+                <h2>Projects</h2>
+        
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="Sliding portfolio.png" alt="Sliding Portfolio Project" width="100%" height="180px">
+                        </div>
+                        <h3>Sliding Portfolio</h3>
+                        <p>A modern, interactive portfolio website featuring smooth sliding animations and dynamic content transitions. Built with HTML5, CSS3 animations, and JavaScript for enhanced user experience and professional presentation.</p>
+                        <div class="project-links">
+                            <a href="" target="_blank" class="btn small">GitHub</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="Project1.png" alt="Registration Form Project" width="100%" height="180px">
+                        </div>
+                        <h3>Registration Validation Form</h3>
+                        <p>A comprehensive user registration system with real-time form validation, error handling, and responsive design. Features client-side validation using JavaScript and modern CSS styling for optimal user interaction.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/IHSAN-ANWAR/Project-1-Registeration-Validation-Complete" target="_blank" class="btn small">GitHub</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="project-2.png" alt="To-Do List Project" width="100%" height="180px">
+                        </div>
+                        <h3>To-Do List</h3>
+                        <p>An interactive task management application with add, edit, delete, and mark-as-complete functionality. Built with vanilla JavaScript for dynamic content manipulation and local storage for data persistence.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/IHSAN-ANWAR/Project-3-To-Do-List" target="_blank" class="btn small">GitHub</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="project3.png" alt="Landing Page Project" height="180px" width="100%">
+                        </div>
+                        <h3>Landing Page</h3>
+                        <p>A responsive landing page showcasing modern web design principles with clean typography, optimized layout, and mobile-first approach. Demonstrates proficiency in HTML5 structure and CSS3 styling techniques.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/IHSAN-ANWAR/Project-4-Simple-landing-Page" target="_blank" class="btn small">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="certifications" class="section">
+            <div class="content">
+                <h2>Certifications</h2>
+                <div class="certifications-grid">
+                    <!-- INTRODUCTION TO FRONT END DEVELOPMENT -->
+                    <div class="certification-card">
+                        <div class="certification-img">
+                            <img src="front end intro.png" alt="Front End Development Certification" width="100%" height="180px">
+                            
+                        </div>
+                        <h3>Introduction to Front End Development</h3>
+                        <p>Comprehensive foundation course covering HTML5, CSS3, and JavaScript fundamentals. Learned modern web development practices, responsive design principles, and interactive user interface creation.</p>
+                        <div class="certification-links">
+                            <a href="https://coursera.org/share/e85340c0942364f43c8e59e1e8995f07" target="_blank" class="btn small">View</a>
+                        </div>
+                    </div>
+                    <!-- Programming wiht JAVASCRIPT -->
+                    <div class="certification-card">
+                        <div class="certification-img">
+                            <img src="METS.JS.png" alt="JavaScript Programming Certification" height="180px" width="100%">
+                        </div>
+                        <h3>Programming with JavaScript</h3>
+                        <p>Advanced JavaScript programming certification covering ES6+ features, DOM manipulation, asynchronous programming, and modern JavaScript frameworks. Developed practical skills in building dynamic web applications.</p>
+                        <div class="certification-links">
+                            <a href="https://coursera.org/share/d925b39b577207a88f9a2076910705dc" target="_blank" class="btn small">View</a>
+                        </div>
+                    </div>
+                    <!-- IELSTS PREAPRATION -->
+                    <div class="certification-card">
+                        <div class="certification-img">
+                            <img src="Ielts.png" alt="IELTS Certification" width="100%" height="180px">
+                        </div>
+                        <h3>IELTS</h3>
+                        <p>International English Language Testing System certification demonstrating advanced English proficiency in reading, writing, listening, and speaking. Essential for international collaboration and professional communication in global tech environments.</p>
+                        <div class="certification-links">
+                            <a href="https://coursera.org/share/3674d0c3112a9e8a8e884da74f05ed5a" target="_blank" class="btn small">View</a>
+                        </div>
+                    </div>
+                    <!-- JAVASCRIPT ESSENTIALS -->
+                    <div class="certification-card">
+                        <div class="certification-img">
+                            <img src="js vu.png" alt="JavaScript Essentials Certification" height="180px" width="100%">
+                        </div>
+                        <h3>JavaScript Essentials</h3>
+                        <p>Comprehensive JavaScript fundamentals certification from Virtual University covering core programming concepts, syntax, data structures, and object-oriented programming principles essential for modern web development.</p>
+                        <div class="certification-links">
+                            <a href="javascript essential from vu.pdf" target="_blank" class="btn small">View</a>
+                        </div>
+                    </div>
+            
+        
+                     <!-- C++ ESSENTIALS -->
+                     <div class="certification-card">
+                        <div class="certification-img">
+                            <img src="c++ vu.png" alt="C++ Essentials Certification" height="180px" width="100%">
+                        </div>
+                        <h3>C++ Essentials</h3>
+                        <p>Advanced C++ programming certification from Virtual University covering object-oriented programming, memory management, data structures, and algorithmic problem-solving. Demonstrates strong foundation in systems programming and software development principles.</p>
+                        <div class="certification-links">
+                            <a href="c++ essentials.pdf" target="_blank" class="btn small">View</a>
+                        </div>
+                    </div>
+                      <!--TYPING CERTIFICATE -->
+                      <div class="certification-card">
+                        <div class="certification-img">
+                            <img src="typing certificate.png" alt="Typing Certificate" height="180px" width="100%">
+                        </div>
+                        <h3>Typing Certificate</h3>
+                        <p>Professional typing certification demonstrating exceptional keyboard proficiency with high speed and accuracy. Essential skill for efficient coding, documentation, and professional communication in fast-paced development environments.</p>
+                        <div class="certification-links">
+                            <a href="TYPING CERTIFICATE.pdf" target="_blank" class="btn small">View</a>
+                        </div>
+                    </div>
+                
+           
+        </section>
+
+        
+
+<section id="skills" class="section">
+    <div class="content">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <div class="skill-icon">HTML5</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width:75%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">CSS3</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width:70%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">JavaScript</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width:60%"></div>
+                </div>
+            </div>
+          
+</section>
+
+
+            <section id="contact" class="section">
+                <div class="content">
+                    <h2>Contact Me</h2>
+                    <div class="contact-container">
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <h3>Email</h3>
+                                <p>ihsan.anwar4321@gmail.com</p>
+                            </div>
+                            <div class="contact-item">
+                                <h3>Phone</h3>
+                                <p>+92 3276508773</p>
+                            </div>
+                            <div class="contact-item">
+                                <h3>Social</h3>
+                                <div class="social-links">
+                                    <a href="https://github.com/IHSAN-ANWAR" class="social-links"> GitHub</a>
+                                    <a href="https://www.linkedin.com/in/ihsan-anwar-243964353/" class="social-links"> LinkedIn</a>
+                                </div>
+                            </div>
+                        </div>
+                        <form  id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name"> Name</label>
+                                <input type="text" id="name" name="name" >
+                          <div class="error" id="nameerror"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email"> Email</label>
+                                <input type="email" id="email" name="email" >
+                            <div class="error" id="emailerror"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message"> Message</label>
+                                <textarea id="message" name="message" rows="5" ></textarea>
+                            <div class="error" id="messageerror"></div>
+                            </div>
+                            <button type="submit" class="btn">Send Message </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+
+            <footer>
+                <p>&copy; 2025 IHSAN ANWAR. All Rights  Reserved.</p>
+            </footer>
+
+           <!-- Custom Modal by Ai -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <p id="modal-message">Message Sent Successful!</p>
+    <button id="modal-close">OK</button>
+  </div>
+</div>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Frontend Developer.', ],
+            typeSpeed: 100,
+            loop:true
+        });
+    </script>
+<script src="script.js"></script>
+</body>
+</html>
