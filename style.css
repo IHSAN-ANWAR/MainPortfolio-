@@ -64,7 +64,7 @@ nav{
     left: 0;
     z-index: 100;
     background-color: rgba(0, 0, 0, 0.7) ;
-    backdrop-filter: blur(10px);;
+    backdrop-filter: blur(10px);
 }
 
 /* Logo */
@@ -307,7 +307,7 @@ border-radius: 5%;
 }
 
 .img-container:hover .profile-img{
-    transform: scale(1.1);
+    transform: scale(1.26);
 }
 
 
