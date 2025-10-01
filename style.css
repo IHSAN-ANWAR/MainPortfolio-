@@ -431,6 +431,24 @@ border-radius: 5%;
 }
 
 
+/* project note */
+.projects-note {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: rgba(25, 25, 40, 0.3);
+    border-radius: 1rem;
+    border: 1px solid rgba(68, 66, 66, 0.3);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    max-width: var(--max-width);
+    margin: 3rem auto 0;
+}
+
+.projects-note {
+  grid-column: 1 / -1; /* spans full width */
+  
+}
+
 
 /* Certifications Section */
 .certifications-grid {
