@@ -372,7 +372,7 @@ border-radius: 5%;
 }
 .project-img {
     width: 100%;
-    height: 220px;
+    height: 245px;
     background-color: var(--accent-color);
     margin-bottom: 20px;
     border-radius: 5px;
@@ -433,6 +433,7 @@ border-radius: 5%;
 
 /* project note */
 .projects-note {
+    grid-column: 1 / -1; /* spans full width */
     text-align: center;
     margin-top: 2rem;
     padding: 1.5rem;
@@ -442,11 +443,6 @@ border-radius: 5%;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
     max-width: var(--max-width);
     margin: 3rem auto 0;
-}
-
-.projects-note {
-  grid-column: 1 / -1; /* spans full width */
-  
 }
 
 
